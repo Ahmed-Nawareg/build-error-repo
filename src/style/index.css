@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply px-4 bg-baseBg min-h-full;
+    }
+    .ipt {
+        @apply h-53 flex items-center text-base3;
+    }
+    .back_btn {
+        @apply h-53 w-full fixed bottom-0;
+    }
+    .col_center {
+        @apply flex items-center;
+    }
+}
+
+.van-button--primary{
+    background-color:#55CCC1;
+    border-color:#55CCC1
+}
+
+.van-checkbox__icon {
+    height: auto;
+}
+
+.van-checkbox__icon .van-icon {
+    width: 18px;
+    height: 18px;
+    line-height: 1;
+}
